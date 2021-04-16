@@ -1,0 +1,9 @@
+.Error404Main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text2);
+}
+.Error404Title {
+    font-weight: bold;
+}

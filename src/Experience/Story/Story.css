@@ -1,0 +1,16 @@
+.ExperienceStoryMain {
+    width: 525px;
+    max-width: 90vw;
+    border-radius: 20px;
+    margin: 2vw;
+
+    background-color: var(--text);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ExperienceStoryImage {
+    width: 85%;
+}

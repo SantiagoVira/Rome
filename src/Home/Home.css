@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+
+.HomeRomeWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.HomeRomeImage {
+    border: none;
+    outline: none;
+    width: 1520px;
+}
+
+.HomeRomeText {
+    font-family: "Yesteryear", cursive;
+    color: var(--text);
+    position: absolute;
+    font-size: 20vw;
+}
+
+.HomeLearnLink {
+    color: var(--text2);
+}

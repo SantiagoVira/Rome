@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap");
+.MenuMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100px;
+    width: 100%;
+    background-color: #81667a;
+    font-family: "Inika", serif;
+}
+.MenuTitle {
+    margin: 10px;
+    font-size: 3rem;
+}
+
+.MenuNavbar {
+    padding: 10px;
+    display: flex;
+}
+
+.MenuLinkItem {
+    color: var(--text);
+    text-decoration: none;
+    padding: 7px;
+}
+.MenuLinkItem:hover {
+    cursor: pointer;
+}
+
+.MenuLinkActive {
+    text-decoration: underline;
+}
