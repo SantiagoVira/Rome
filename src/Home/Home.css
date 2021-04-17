@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 
-.HomeRomeWrapper {
+.HomeRomeWrapper,
+.HomeRomeImgTxt {
     display: flex;
     justify-content: center;
     align-items: center;

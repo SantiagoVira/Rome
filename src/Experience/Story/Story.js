@@ -6,7 +6,7 @@ function Story({ src, alt, title, children }) {
         <div className="ExperienceStoryMain">
             <h1>{title}</h1>
             <img src={src} alt={alt} className="ExperienceStoryImage" />
-            <p>{children}</p>
+            <p className="ExperienceStoryStory">{children}</p>
         </div>
     );
 }

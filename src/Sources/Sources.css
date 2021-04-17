@@ -1,0 +1,21 @@
+.SourcesMainWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SourcesTitleWrapper {
+    width: 90vw;
+    text-align: left;
+    border-bottom: 3px solid var(--text2);
+    margin-top: 5vh;
+}
+
+.SourcesTitleText {
+    margin: 0;
+}
+
+.SourcesLinks {
+    font-size: 1.2rem;
+    color: var(--text2);
+}

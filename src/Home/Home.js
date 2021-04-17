@@ -7,8 +7,11 @@ import Rome from "./images/Rome.png";
 function Home() {
     return (
         <div className="HomeRomeWrapper">
-            <img className="HomeRomeImage" src={Rome} alt="Rome" />
-            <h1 className="HomeRomeText">Rome is Home</h1>
+            <div className="HomeRomeImgTxt">
+                <img className="HomeRomeImage" src={Rome} alt="Rome" />
+                <h1 className="HomeRomeText">Rome is Home</h1>
+            </div>
+
             <h1>
                 Check out our{" "}
                 <Link to="/experience" className="HomeLearnLink">
